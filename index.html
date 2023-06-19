@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="shortcut icon" href="images/fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <main id="container">
+        <form id="form_login">
+            <div id="header_login">
+                <h1>Login</h1>
+                <input type="checkbox" class="checkbox" id="check">
+                <label class="label" for="check">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+            <div id="social_media">
+                <a href="#">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="icone google">
+                </a>
+                <a href="#">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="icone github">
+                </a>
+            </div>
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="nome">
+                        Nome
+                        <div class="campo-input">
+                            <i><img src="images/user.png"></i>
+                            <input type="text" id="nome" name="nome">   
+                        </div>
+                    </label>
+                <div class="input-box">
+                    <label for="senha">
+                        Senha
+                        <div class="campo-input">
+                            <i><img src="images/key.png"></i>
+                            <input type="password" id="senha" name="senha">   
+                        </div>
+                    </label>
+                <div id="forgot">
+                    <A href="#">
+                        Esqueceu sua senha?
+                    </A>
+                </div>
+                </div>
+            </div>
+        
+            <button type="submit" id="button_login">
+                Login
+            </button>
+        </form>
+    </main>
+    <script src="js/script.js">
+    </script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>
